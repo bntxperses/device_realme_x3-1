@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_x3.mk
+    $(LOCAL_DIR)/derp_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_x3-user \
-    voltage_x3-userdebug \
-    voltage_x3-eng
+    derp_x3-user \
+    derp_x3-userdebug \
+    derp_x3-eng
