@@ -116,7 +116,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.control_privapp_permissions=log
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.x3
+    android.hardware.power-service-qti
 
 # RCS
 PRODUCT_PACKAGES += \
