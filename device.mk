@@ -45,8 +45,8 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Doze
-#PRODUCT_PACKAGES += \
-#    RealmeDoze
+PRODUCT_PACKAGES += \
+    RealmeDoze
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -105,8 +105,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Parts
-#PRODUCT_PACKAGES += \
-#    RealmeParts
+PRODUCT_PACKAGES += \
+    RealmeParts
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/init/realmeparts.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/realmeparts.rc
