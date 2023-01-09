@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_x3.mk
+    $(LOCAL_DIR)/syberia_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_x3-user \
-    blaze_x3-userdebug \
-    blaze_x3-eng
+    syberia_x3-user \
+    syberia_x3-userdebug \
+    syberia_x3-eng

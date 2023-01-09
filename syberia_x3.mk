@@ -21,18 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/realme/x3/device.mk)
 
-# Inherit common Blaze configurations
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
-BLAZE_MAINTAINER := AK
+# Inherit common SyberiaOS configurations
+$(call inherit-product, vendor/syberia/config/common.mk)
 
-# Bootanimation Resolution
+# Syberian stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Gapps
+TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_GMS := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 
 # Device identifier
-PRODUCT_NAME := blaze_x3
+PRODUCT_NAME := syberia_x3
 PRODUCT_DEVICE := x3
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme X3 / SuperZoom
